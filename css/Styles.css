@@ -37,6 +37,13 @@ body {
     --button-hover-color: #2196F350;
     }
 
+.container {
+width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
+}
+
 .logo {
     color: var(--secondary-text-color);
     font-family: 'Raleway';
