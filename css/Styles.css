@@ -75,13 +75,17 @@ ul {
 }
 /* site-nav */
 .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    
     color:var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     text-decoration: none;
     letter-spacing: 0.02em;
-   }
+}
 
 .site-nav .link:hover ,
 .site-nav .link:focus {
@@ -90,7 +94,6 @@ ul {
 .site-nav {
     display: flex;
 }
-
 .site-nav .nav:not(:last-child) {
     margin-right: 50px;
 }
@@ -109,6 +112,10 @@ ul {
 }
 
 .link-contacts {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
