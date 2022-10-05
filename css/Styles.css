@@ -7,6 +7,9 @@ body {
 h1,
 h2,
 h3,
+h4,
+h5,
+h6,
 p,
 ul {
     padding: 0;
@@ -78,15 +81,31 @@ ul {
     line-height: 1.14;
     text-decoration: none;
     letter-spacing: 0.02em;
-}
+   }
+
 .site-nav .link:hover ,
 .site-nav .link:focus {
     color: var(--accent-color);
+}
+.site-nav {
+    display: flex;
+}
+
+.site-nav .nav:not(:last-child) {
+    margin-right: 50px;
 }
 
 .site-nav .link.current {
     color: var(--accent-color);
 
+}
+
+.contacts {
+    display: flex;
+}
+
+.contacts .contact:not(:last-child) {
+    margin-right: 50px;
 }
 
 .link-contacts {
