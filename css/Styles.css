@@ -254,7 +254,23 @@ img {
     
 }
 
+.items-team {
+    display: flex;
+}
+
+.items-team  .team-image:not(:last-child) {
+    margin-right: 30px;
+}
+
+.card {
+    padding: 30px 70px;
+}
+
+
+
 .title {
+    margin-bottom: 10px;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.187;
@@ -271,7 +287,7 @@ img {
 
 .team-image {
     background-color: var(--primary-white-color);
-}
+    }
 
 /* footer */
 .footer {
@@ -317,6 +333,15 @@ img {
     color: var(--accent-color);}
     
 /* portfolio */
+.filter {
+    display: flex;
+    Justify-content: center;
+    }
+
+.filter  .filter-item:not(:last-child) {
+        margin-right: 8px;
+    }
+
 .filter-button {
     cursor: pointer;
     background-color: var(--secondary-fon-color);
@@ -327,6 +352,7 @@ img {
     letter-spacing: 0.03em;
     padding: 6px 22px;
     border-radius: 4px;
+    border: 0;
 }
 
 .filter .filter-button:hover,
