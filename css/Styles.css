@@ -336,6 +336,7 @@ img {
 .filter {
     display: flex;
     Justify-content: center;
+    margin-bottom: 50px;
     }
 
 .filter  .filter-item:not(:last-child) {
