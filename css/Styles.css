@@ -79,12 +79,13 @@ img {
     line-height: 1.19;
     text-decoration: none;
     letter-spacing: 0.03em;
+    padding: 24px 0px 25px 0px;
 }
 
 .logo-text {
     display: inline-block;
     color: var(--accent-color);
-}
+       }
 /* site-nav */
 .link {
     display: block;
@@ -287,12 +288,14 @@ img {
 
 .team-image {
     background-color: var(--primary-white-color);
+    border: 1px;
     }
 
 /* footer */
 .footer {
    background-color: var(--section-fon-color);
    margin: 0;
+   padding: 60px 0px;
 }
 
 .logo-footer {
@@ -303,6 +306,12 @@ img {
     line-height: 1.192;
     text-decoration: none;
     letter-spacing: 0.03em;
+       }
+
+.logo-web {
+    margin-bottom: 20px;
+    color: var(--accent-color);
+    display: inline-block;
 }
 
 .link-adress {
@@ -312,6 +321,11 @@ img {
    line-height: 1.714;
    text-decoration: none;
    letter-spacing: 0.03em;
+   margin-bottom: 9px;
+}
+
+.link-items .link-name:not(:last-child) {
+    margin-bottom: 9px;
 }
 
 .link-items .link-adress:hover,
@@ -326,6 +340,7 @@ img {
   line-height: 1.714;
   text-decoration: none;
   letter-spacing: 0.03em;
+  margin-bottom: 9px;
     }
 
 .link-items .link-item:hover,
