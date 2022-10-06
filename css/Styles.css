@@ -135,12 +135,16 @@ ul {
 .contacts .link-contacts:focus {
      color: var(--accent-color);  
 }
+
+
 /* hero */
 .hero {
     background-color: var(--section-fon-color);
+    text-align: center;
     }
 .hero-title{
     margin-bottom: 30px;
+
     color: var(--primary-white-color);
     font-weight: 900;
     font-size: 44px;
@@ -150,6 +154,11 @@ ul {
 
 }
 .button  {
+    padding: 10px 32px; 
+    border-radius: 4px;
+    
+    
+
     color: var(--primary-white-color);
     background-color: var(--accent-color);
     font-family: inherit;
@@ -158,8 +167,7 @@ ul {
     line-height: 1.875;
     letter-spacing: 0.06em;
     cursor: pointer;
-    padding: 10px 32px; 
-    border-radius: 4px;
+  
   }
 
 .button:hover,      
@@ -314,7 +322,4 @@ ul {
     letter-spacing: 0.03em;
 }
  
-.top {
-    max-width: 10px;
-}
  
