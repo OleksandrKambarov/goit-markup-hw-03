@@ -389,5 +389,18 @@ img {
     line-height: 1.875;
     letter-spacing: 0.03em;
 }
- 
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-image:ntn-child(3n) {
+margin: 0;
+
+}
+
+.box {
+margin-right: 30;
+}
  
