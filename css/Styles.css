@@ -156,6 +156,9 @@ img {
         }
 .hero-title{
     margin-bottom: 30px;
+    margin-left: 215px;
+    margin-right: 215px;
+
 
     color: var(--primary-white-color);
     font-weight: 900;
