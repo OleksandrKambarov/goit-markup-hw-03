@@ -57,7 +57,7 @@ img {
     }
 
 .container {
-    width: 1230px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -68,12 +68,15 @@ img {
     padding: 94px 0;
 }
 
+header {
+    border-bottom: 1px solid #ECECEC;
+}
+
 .main-nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: 1px solid #ECECEC;
-    }
+}
 .logo {
     color: var(--secondary-text-color);
     font-family: 'Raleway';
@@ -153,7 +156,9 @@ img {
 .hero {
     background-color: var(--section-fon-color);
     text-align: center;
+    padding: 200px 0;
         }
+
 .hero-title{
     margin-bottom: 30px;
     margin-left: 215px;
@@ -213,8 +218,18 @@ img {
     text-transform: uppercase;
     }
 
+.benefits {
+    padding-bottom: 0;
+}
+
+.features {
+max-width: 270px;   
+}
+
+
 .section-features {
     display: flex;
+    
     }
 
 .section-features .features:not(:last-child) {
